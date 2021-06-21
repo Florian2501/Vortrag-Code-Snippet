@@ -44,5 +44,7 @@ tags:     LiaScript, PowerPoint, Tutorial
 
 {{1}}
 `Table Window`
+
+
 ## My Special Code Snippet
 Picture of the code and of the bar chart in the app
