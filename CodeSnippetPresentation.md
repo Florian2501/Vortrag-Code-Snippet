@@ -60,7 +60,7 @@ Click here to open it in LiaScript:
 `Task Window`
 ![TaskWindow](./NewTask.PNG)
 
-- enter done task
+- enter done tasks
 
 
 {{3}}
@@ -89,6 +89,7 @@ Furthermore there should be the names, places and total points.
 
                               {{0-1}}
 ********************************************************************************
+Full snippet:
 
 ```csharp        Snippet
 int place = 1;
