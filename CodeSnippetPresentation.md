@@ -44,6 +44,31 @@ tags:     LiaScript, PowerPoint, Tutorial
 
 {{1}}
 `Table Window`
+![TableWindow](Tabelle.png)
+
+- visualise the points
+
+
+{{2}}
+`Task Window`
+![TaskWindow](NewTask.png)
+
+- enter done task
+
+
+{{3}}
+`Create-Task Window`
+![CreateTaskWindow](CreateTask.png)
+
+- create a new task that is not in the program yet
+- change values of an existing task
+
+
+{{4}}
+`Person Window`
+![PersonWindow](Persons.png)
+
+- manage persons -> delete or enter
 
 
 ## My Special Code Snippet
