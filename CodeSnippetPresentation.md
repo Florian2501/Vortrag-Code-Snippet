@@ -26,7 +26,7 @@ Click here to open it in LiaScript:
 
 # The Problem In Familys
 
-||
+
 ![Family-love](https://cdnext.funpot.net/bild/funpot0000250003/39/Pingu-Streit.gif)
 
 - argues
@@ -51,21 +51,21 @@ Click here to open it in LiaScript:
 
 {{1}}
 `Table Window`
-![TableWindow](Tabelle.png)
+![TableWindow](https://github.com/Florian2501/Vortrag-Code-Snippet/blob/master/Tabelle.PNG)
 
 - visualise the points
 
 
 {{2}}
 `Task Window`
-![TaskWindow](NewTask.png)
+![TaskWindow](https://github.com/Florian2501/Vortrag-Code-Snippet/blob/master/NewTask.PNG)
 
 - enter done task
 
 
 {{3}}
 `Create-Task Window`
-![CreateTaskWindow](CreateTask.png)
+![CreateTaskWindow](https://github.com/Florian2501/Vortrag-Code-Snippet/blob/master/CreateTask.PNG)
 
 - create a new task that is not in the program yet
 - change values of an existing task
@@ -73,7 +73,7 @@ Click here to open it in LiaScript:
 
 {{4}}
 `Person Window`
-![PersonWindow](Persons.png)
+![PersonWindow](https://github.com/Florian2501/Vortrag-Code-Snippet/blob/master/Persons.PNG)
 
 - manage persons -> delete or enter
 
@@ -83,7 +83,7 @@ Click here to open it in LiaScript:
 For better visualization add a bar chart starting with the best at the top. The bars has to be in correct relation to the other ones.
 
 Furthermore there should be the names, places and total points.
-![Picture of the bar chart](BarChart.png)
+![Picture of the bar chart](https://github.com/Florian2501/Vortrag-Code-Snippet/blob/master/BarChart.PNG)
 
 
 
