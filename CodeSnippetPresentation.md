@@ -37,6 +37,8 @@ tags:     LiaScript, PowerPoint, Tutorial
 - See details of done tasks with graphical visualization.
 
 - Helps to distribute tasks and make family life more fair.
+
+![Peace](https://media.tenor.com/images/923df43fb015bd6c375fb7c7b7d5f293/tenor.gif)
 ## Implementation
 WPF App
 Show pictures how it looks
