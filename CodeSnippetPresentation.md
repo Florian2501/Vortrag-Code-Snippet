@@ -40,7 +40,9 @@ tags:     LiaScript, PowerPoint, Tutorial
 
 ![Peace](https://media.tenor.com/images/923df43fb015bd6c375fb7c7b7d5f293/tenor.gif)
 ## Implementation
-WPF App
-Show pictures how it looks
+- use WPF App to visualise it
+
+{{1}}
+`Table Window`
 ## My Special Code Snippet
 Picture of the code and of the bar chart in the app
