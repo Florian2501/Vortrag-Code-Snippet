@@ -19,6 +19,11 @@ comment:  Es wird gezeigt, wie typische bekannte Präsentationselemente auch
 tags:     LiaScript, PowerPoint, Tutorial
 
 -->
+# Watch it in LiaScript!
+
+Click here to open it in LiaScript:
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/Florian2501/Vortrag-Code-Snippet/blob/master/CodeSnippetPresentation.md)
+
 # The Problem In Familys
 
 ||
@@ -82,10 +87,10 @@ Furthermore there should be the names, places and total points.
 
 
 
-                              {{1}}
+                              {{0-1}}
 ********************************************************************************
 
-```csharp        FirstStructExample
+```csharp        Snippet
 int place = 1;
 
 foreach ((int points, string name) in places)
@@ -128,7 +133,7 @@ foreach ((int points, string name) in places)
 
 ********************************************************************************
 
-## Explain the Code
+
 Going through the code step by step:
 
 {{1-2}}
@@ -244,3 +249,10 @@ place++;
 - check the result of the division for `Not a Number` or `Infinity`
 - set it to 1 if it is invalid (to see at least a small line)
 - else multiply by the `percent` value
+
+
+{{1}}
+********************************************************************************
+**Do you see other problems?**
+Please tell me and let us make the life of families more peaceful.
+********************************************************************************
