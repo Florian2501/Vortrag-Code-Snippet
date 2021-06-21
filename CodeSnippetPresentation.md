@@ -11,6 +11,8 @@ language: de
 
 narrator: Deutsch Female
 
+import: https://github.com/liascript/CodeRunner
+
 comment:  Es wird gezeigt, wie typische bekannte Präsentationselemente auch
           mithilfe von LiaScript genutzt werden können.
 
@@ -72,4 +74,56 @@ tags:     LiaScript, PowerPoint, Tutorial
 
 
 ## My Special Code Snippet
-Picture of the code and of the bar chart in the app
+
+For better visualization add a bar chart starting with the best at the top. The bars has to be in correct relation to the other ones.
+
+Furthermore there should be the names, places and total points.
+![Picture of the bar chart](BarChart.png)
+
+
+
+                              {{1}}
+********************************************************************************
+
+```csharp        FirstStructExample
+int place = 1;
+
+foreach ((int points, string name) in places)
+            {
+                //Build the Textblock of place and Name
+                TextBlock nameBlock = new TextBlock();
+                nameBlock.Margin = new Thickness(15, 5, 0,0);
+                nameBlock.Text = place.ToString() + ". " + name;
+                Grid.SetRow(nameBlock, (place-1) * 2);//every second row
+
+                //Build the text block with the points
+                TextBlock pointsBlock = new TextBlock();
+                pointsBlock.Text = points.ToString();
+                pointsBlock.Margin = new Thickness(15, 5, 0, 0);
+                Grid.SetRow(pointsBlock, (place - 1) * 2);
+                Grid.SetColumn(pointsBlock, 1);//every second row and in the second column
+
+                //add the textblocks to the fitting Gridcell in the Menu
+                placeGrid.Children.Add(nameBlock);
+                placeGrid.Children.Add(pointsBlock);
+
+                //create a rectangle in the correct length and in relation to the first place -> will be always the whole line (190)
+                Rectangle bar = new Rectangle();
+                bar.Width = 189.0 * ((double)points / (double)places[0].Item1) + 1.0;//+1 that there is even something if the points are 0
+                bar.Height = 20;
+                bar.Fill = new SolidColorBrush(ColorTheme.design.BarChart);//The given color for the bar chart
+                bar.HorizontalAlignment = HorizontalAlignment.Left;
+                bar.Margin = new Thickness(5, 0, 0, 0);
+
+                //set the rectangle to the row that is empty under each name
+                Grid.SetRow(bar, (place * 2) - 1);
+                //make it over the whole width
+                Grid.SetColumnSpan(bar, 2);
+                //add the abr to the Grid
+                placeGrid.Children.Add(bar);
+
+                place++;
+            }
+```
+
+********************************************************************************
