@@ -58,14 +58,14 @@ Click here to open it in LiaScript:
 
 {{2}}
 `Task Window`
-![TaskWindow](./NewTask.png)
+![TaskWindow](./NewTask.PNG)
 
 - enter done task
 
 
 {{3}}
 `Create-Task Window`
-![CreateTaskWindow](./CreateTask.png)
+![CreateTaskWindow](./CreateTask.PNG)
 
 - create a new task that is not in the program yet
 - change values of an existing task
@@ -73,7 +73,7 @@ Click here to open it in LiaScript:
 
 {{4}}
 `Person Window`
-![PersonWindow](./Persons.png)
+![PersonWindow](./Persons.PNG)
 
 - manage persons -> delete or enter
 
@@ -83,7 +83,7 @@ Click here to open it in LiaScript:
 For better visualization add a bar chart starting with the best at the top. The bars has to be in correct relation to the other ones.
 
 Furthermore there should be the names, places and total points.
-![Picture of the bar chart](./BarChart.png)
+![Picture of the bar chart](./BarChart.PNG)
 
 
 
