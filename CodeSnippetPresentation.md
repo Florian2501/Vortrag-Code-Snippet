@@ -51,7 +51,7 @@ Click here to open it in LiaScript:
 
 {{1}}
 `Table Window`
-![TableWindow](./Tabelle.png)
+![TableWindow](./Tabelle.PNG)
 
 - visualise the points
 
