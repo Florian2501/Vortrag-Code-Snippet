@@ -5,7 +5,7 @@ email:    florischierz@gmail.com
 
 logo: https://upload.wikimedia.org/wikipedia/commons/2/2a/Corporate_Woman_Giving_a_PowerPoint_Presentation.svg
 
-version:  0.0.1
+version:  1.0.1
 
 language: de
 
